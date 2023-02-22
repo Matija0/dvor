@@ -1,0 +1,216 @@
+body{
+  background-color: #ffffff;
+}
+
+#app{
+  min-height: 700px;
+
+}
+.carousel .control-disabled.control-arrow {
+  opacity: 1 !important;
+  display: block !important;
+background-color: #92c6db !important;
+
+}
+.carousel .control-next.control-arrow::before {
+  content: ">" !important;
+  border-left: none !important;
+  background-color:  #e49e9e !important;
+  color: #fff !important;
+  padding:5px !important;
+font-size: 40px !important;
+padding-left: 20px !important;
+
+}
+
+.carousel .control-prev.control-arrow::before {
+  content: "<" !important;
+  border-left: none !important;
+  background-color:  #f09090 !important;
+  color: #fff !important;
+  padding: 5px !important;
+  font-size: 40px !important;
+
+
+  
+}
+
+
+.carousel.carousel-slider .control-arrow{
+top: 0px !important;
+  background:transparent !important;
+  opacity: 1 !important;
+height: 0px !important;
+
+
+}
+.carousel .control-prev{
+  position: absolute;
+  bottom: 0px !important;
+  padding: 0px !important;
+  background-color: #141414 !important;
+  left: 0px !important;
+
+  z-index: 10;
+}
+.carousel .control-next{
+  position: absolute;
+  bottom: 0px !important;
+  left: 25px !important;
+  z-index: 10;
+  width:20px !important;
+  
+  padding: 0px !important;
+  background-color: #141414 !important;
+
+}
+.wine-bg{
+  background-image: url(https://cdn.pixabay.com/photo/2015/10/24/11/09/red-wine-1004255_960_720.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* video*/
+.header-intro{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+.header-intro .intro-video{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+.section-header{
+  height:100%;
+  position: relative;
+  z-index: 2;
+}
+.section-overlay{
+  position: absolute;
+  top:0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(10,20,30,0.6);
+}
+
+.bg-main{
+  background-color: #e6e6e6 !important;
+}
+.text-main{
+  color: #e6e6e6;
+}
+
+.intro-container{
+  background-image: url(https://lh3.googleusercontent.com/p/AF1QipNVkYg5vS1WR1aC0qfsVsRmcEGxBnjFr9SHLHcZ=s1360-w1360-h1020);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 90vh;
+  width: 100%;
+}
+
+.navigation-container{
+  padding: 5px 5px;
+
+  background-color: #92c6db;
+  display: flex;
+}
+.navigation-container span{
+  padding: 10px 20px;
+  background-color: black;
+  color: #fff;
+border-radius: 10px;
+margin-left: 20px;
+}
+.nav-ul{
+  margin: auto;
+}
+
+.nav-ul li{
+list-style-type: none;
+display: inline;
+font-weight: 600;
+margin: 5px 15px;
+padding: 5px;
+font-size: 19px;
+}
+
+
+
+
+.footer {
+  background: #e6e6e6;
+  color: rgb(0, 0, 0);
+}
+.footer .links ul {
+  list-style-type: none;
+}
+.footer .links li a {
+  color: rgb(42, 40, 40);
+  transition: color 0.2s;
+}
+.footer .links li a:hover {
+  text-decoration: none;
+  color: #2e2f30;
+}
+.footer .about-company i {
+  font-size: 25px;
+}
+.footer .about-company a {
+  color: rgb(42, 40, 40);
+  transition: color 0.2s;
+}
+.footer .about-company a:hover {
+  color: #272829;
+}
+.footer .location i {
+  font-size: 18px;
+}
+.footer .copyright p {
+  border-top: 1px solid rgba(255, 255, 255, .1);
+}
+
+.section{
+  background-color: #92c6db;
+  width: 50%;
+  margin: 10px 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  border-radius: 5px;
+}
+
+.section-title{
+  color: #141414
+}
+
+.section-text{
+  margin: 5px;
+}
+
+.section-text2{
+  margin: 5px;
+}
+
+.contact-form{
+  background-image: url(https://cdn.pixabay.com/photo/2020/06/30/15/03/table-5356682_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+

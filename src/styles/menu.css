@@ -1,0 +1,62 @@
+
+.heading{
+    font-size: 60px;
+}
+.menu-item{
+    border-top: 0.4px solid #e7e5e5;
+    background-color: #ffffff;
+    margin-top: 5px;
+    width: 100%;
+    
+}
+.menu-item h6{
+    font-size: 15px;
+    line-height: 10px !important;
+}
+.menu-item span{
+    padding: 0px !important;
+    font-size: 10px;
+}
+.sub-menu-item{
+    font-size: 9px;
+    color: #8b8787;
+    margin-right: 5px;
+}
+.filter-item  {
+    list-style-type: none;
+    font-size: 19px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.active-filter-item {
+    cursor: pointer;
+    list-style-type: none;
+    font-size: 19px;
+    font-weight: 500;
+}
+.filter-item::before  {
+    cursor: pointer;
+    content: "-";
+   padding: 1px 10px;
+   height: 20px;
+   color: #111111;
+    list-style-type: none;
+   
+    font-weight: 500;
+}
+.active-filter-item::before  {
+    cursor: pointer;
+    content: "->";
+   padding: 1px 10px;
+   height: 20px;
+   color: #111111;
+    list-style-type: none;
+   
+    font-weight: 500;
+}
+.span-line{
+    width: 8px;
+    height: 20px;
+    background-color: #111111;
+    transition: all 0.5s ease-in-out;
+}

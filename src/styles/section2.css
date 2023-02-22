@@ -1,0 +1,30 @@
+.Section2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.Section2-left{
+    background-color: #92c6db;
+    width: 50%;
+    padding: 50px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    gap: 15px;
+    height: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+img{
+    width: 700x;
+    height: 500px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
